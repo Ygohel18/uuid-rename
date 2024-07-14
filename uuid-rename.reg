@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\RunUUIDRename]
+@="Run UUID Rename"
+"Icon"="C:\\run\\uuid-rename\\rename.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\RunUUIDRename\command]
+@="\"C:\\run\\uuid-rename\\uuid-rename.bat\" \"%V\""
